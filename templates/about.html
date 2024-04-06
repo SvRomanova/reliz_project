@@ -1,0 +1,11 @@
+{% extends "index.html" %}
+{% include "banner.html" %}
+{% block body %}
+<h2 class="my-4 ms-3">Це мій блог</h2>
+<img src="/static/{{user.image}}" alt="Фото">
+
+<p>
+    {{user.description}}
+</p>
+
+{% endblock %}

@@ -1,0 +1,20 @@
+.banner {
+    height: 400px;
+    width: 100%;
+}
+
+.banner1 {
+    background: url('/static/laptop-g93ff6d287_640.jpg') no-repeat scroll right center / cover;
+}
+
+.banner2 {
+    background: url('/static/creative.jpg') no-repeat scroll right center / cover;
+}
+
+.banner3 {
+    background: url('/static/guitar-g939b4aaa4_640.jpg') no-repeat scroll right center / cover;
+}
+
+.category_content {
+    min-height: 400px;
+}
